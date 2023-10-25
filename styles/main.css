@@ -5,3 +5,11 @@ body{
 .display-result-red {
     color: red;
 }
+
+#👻{
+    font-size: 100px;
+}
+
+#👻.flipped{
+    transform: rotate(3.142rad);
+}

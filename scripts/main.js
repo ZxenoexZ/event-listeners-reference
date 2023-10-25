@@ -41,3 +41,15 @@ function addressResults (event) {
 
 }
     
+document.onkeydown = function (event) {
+    console.log(event)
+}
+
+let ghostBoy = document.getElementById("👻")
+console.log(ghostBoy)
+ghostBoy.onclick = flipGhost
+
+function flipGhost(event) {
+    event.target.classList.toggle("flipped")
+    console.log("Ghost should be flipped")
+}
