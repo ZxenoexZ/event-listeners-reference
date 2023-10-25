@@ -47,7 +47,11 @@ document.onkeydown = function (event) {
 
 let ghostBoy = document.getElementById("👻")
 console.log(ghostBoy)
+ghostBoy.onmouseover = flipGhost
+ghostBoy.onmouseout = flipGhost
 ghostBoy.onclick = flipGhost
+
+
 
 function flipGhost(event) {
     event.target.classList.toggle("flipped")
